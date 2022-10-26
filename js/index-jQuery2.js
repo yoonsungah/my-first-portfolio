@@ -86,14 +86,17 @@ $(function () {
 
 
     let list = $('.topSaleUl');
-    let listWidth = list.children().outerWidth();
+    
 
     let length = list.children().length;
     let time;
-
+ 
+    let innerSize = 640;
+    let topCount = 4;
     //.topSaleUl>li의 넓이와 높이를 설정
-    list.css('width', listWidth * length + 'px');
+    list.css('width', 100 * length /topCount+ '%');
     // console.log(listWidth);
+    let listWidth = list.children().outerWidth();
 
     //next버튼을 클릭했을 경우
     $('.ToprightBtn').click(function () {
@@ -190,6 +193,14 @@ $(function () {
         // moveX=0;
         $(".banner").css("margin-left", 0);
         moveSlide();
+        if (winWidth > innerSize) {
+            topCount = 4
+        }
+        else {
+            topCount = 2
+        }
+        list.css('width', 100 * length /topCount+ '%');
+        listWidth = list.children().outerWidth();
     }
 
     resizeInit();

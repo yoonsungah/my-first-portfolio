@@ -1,0 +1,162 @@
+/* 글씨체 */
+body {
+    font-family: Notosans, Arial, Helvetica, sans-serif;
+    line-height: 1;
+    color: #555;
+}
+
+a {
+    color: #555;
+}
+
+
+/* .innerBox */
+.innerBox {
+    /* background-color: blanchedalmond; */
+    position: relative;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+/* #container */
+/* 1. topsale */
+.topSale {
+    /* background-color: aliceblue; */
+    margin: 100px 0 100px 0;
+}
+
+.topSale>.innerBox {
+    overflow: hidden;
+
+}
+
+.topSale h2 {
+    font-size: 1.5em;
+    font-weight: 400;
+    font-family: NotoSansLight;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    letter-spacing: 3px;
+    word-break: keep-all;
+    line-height: 1.3em;
+}
+
+.topSale h2>strong {
+    font-size: 1.4em;
+}
+
+.topSale h2>strong:first-child {
+    display: block;
+}
+
+.topSaleUl {
+    display: flex;
+    justify-content: space-between;
+    /* margin: 0 18px; */
+    width: 200%;
+    position: relative;
+}
+
+.topSale ul>li {
+    /* background-color: yellowgreen; */
+    /* width: 100%; */
+    height: 100%;
+    text-align: center;
+    padding: 0 18px;
+    /* display: inline-block; */
+}
+
+.topSale .imgBox {
+    width: 100%;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.topSale .imgBox>img {
+    display: block;
+    width: 100%;
+    transition: 0.5s;
+}
+
+.topSale .imgBox>img:hover {
+    transform: scale(1.1);
+}
+
+/* .textBox */
+.textBox {
+    text-align: center;
+    word-break: keep-all;
+}
+
+.textBox .itemTitle {
+    font-size: 1.3em;
+}
+
+.topSale .itemTitle,
+.bestSeller .itemTitle {
+    margin: 15px 0;
+    color: black;
+}
+
+.textBox div>p {
+    font-size: 1.1em;
+    margin-bottom: 3px;
+}
+
+.textBox .itemBrand {
+    text-decoration: underline;
+    color: #979797;
+}
+
+.textBox .itemPrice {
+    text-decoration: line-through;
+}
+
+.textBox .itemSalePrice {
+    font-weight: bold;
+}
+
+.textBox .itemSalePrice>strong:last-child {
+    color: #EC0000;
+}
+
+.ToparrowBtn {
+    display: none;
+}
+
+
+
+
+
+@media screen and (max-width:1170px) {
+    /* newItem */
+    .newItem .imgBox{
+        width: 400px;
+        height: 200px;
+    }
+}
+
+
+
+@media screen and (max-width:599px) {
+    .topSale h2 {
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
+    .topSale h2 strong:first-child {
+        margin-bottom: 10px;
+    }
+
+    .topSaleUl {
+        /* 여기제거 */
+        /* background-color: yellowgreen; */
+        /* width: 800%; */
+    }
+
+    .topSale ul>li {
+        /* padding: 0 60px; */
+    }
+
+}
+

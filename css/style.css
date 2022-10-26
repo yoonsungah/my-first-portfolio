@@ -42,7 +42,7 @@ header {
     background-color: white;
     position: fixed;
     width: 100%;
-    z-index: 100;
+    z-index: 1000;
 }
 
 .hamBtn,
@@ -1057,14 +1057,15 @@ font-size: 1.3em;
     display: flex;
     flex-wrap: wrap;
     gap: 5px;
-    justify-content: space-between;
+    justify-content: center;
     margin: 0 18px;
 }
 .bottomEvent .innerBox>div>ul>li {
     /* background-color: yellow; */
-    width: 49%;
+    width: 47%;
     position: relative;
     overflow: hidden;
+    margin: 10px;
 }
 
 .bottomEvent .itemCon {
@@ -1075,10 +1076,10 @@ font-size: 1.3em;
     bottom: 0;
     width: 100%;
     height: 80px;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(237, 237, 237, 0.9);
     text-align: left;
     border-radius: 0 0 20px 20px;
-    color: white;
+    color: #555;
     line-height: 2em;
 }
 .bottomEvent .itemCon p:first-child {
@@ -1221,8 +1222,8 @@ footer {
     position: fixed;
     display: block;
     z-index: 200;
-    top: 800px;
-    right: 100px;
+    top: 90%;
+    right: 25%;
 }
 
 @media screen and (max-width:1300px) {
