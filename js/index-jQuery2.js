@@ -95,8 +95,9 @@ $(function () {
     let topCount = 4;
     //.topSaleUl>li의 넓이와 높이를 설정
     list.css('width', 100 * length /topCount+ '%');
-    // console.log(listWidth);
+
     let listWidth = list.children().outerWidth();
+    console.log(listWidth);
 
     //next버튼을 클릭했을 경우
     $('.ToprightBtn').click(function () {
@@ -166,33 +167,42 @@ $(function () {
 
     let duration = 300;
 
-    $('.newItem .imgBox').on({
-        'mouseover': function () {
-            $(this).find('.itemCon').stop().animate({ bottom: '0px' }, duration);
-            $(this).find('span').stop().animate({ opacity: 1 }, duration);
-            $(this).find('img').stop().animate({ top: '-20px' }, duration * 1.3);
-        },
-        'mouseout': function () {
-            $(this).find('.itemCon').stop().animate({ bottom: '-80px' }, duration);
-            $(this).find('span').stop().animate({ opacity: 0 }, duration);
-            $(this).find('img').stop().animate({ top: '0px' }, duration * 1.3);
-        }
-    });
+        $('.newItem .imgBox').on({
+            'mouseover': function () {
+                $(this).find('.itemCon').stop().animate({ bottom: '0px' }, duration);
+                $(this).find('span').stop().animate({ opacity: 1 }, duration);
+                $(this).find('img').stop().animate({ top: '-20px' }, duration * 1.3);
+            },
+            'mouseout': function () {
+                $(this).find('.itemCon').stop().animate({ bottom: '-80px' }, duration);
+                $(this).find('span').stop().animate({ opacity: 0 }, duration);
+                $(this).find('img').stop().animate({ top: '0px' }, duration * 1.3);
+            }
+        });
+
+    
     //-----------------------------------------
+    // 맨 위로 가는 버튼
     let topBtn = $('.topBtn');
     topBtn.on('click', function () {
         $('html').animate({ scrollTop: 0 });
     })
+    //------------------------------------
 
     let winWidth=$(window).width();
 
     function resizeInit(){
+        //mainBanner 리사이즈
         winWidth=$(window).width();
         showBanner=0;
         liWidth=winWidth;
         // moveX=0;
         $(".banner").css("margin-left", 0);
         moveSlide();
+
+        //topSale 리사이즈
+        //inner박스보다 화면사이즈가 크면 제품 4개가 보이고
+        //inner박스보다 화면사이즈가 작으면 제품 2개만 보이도록 했음
         if (winWidth > innerSize) {
             topCount = 4
         }
