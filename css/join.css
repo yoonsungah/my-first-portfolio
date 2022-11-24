@@ -10,6 +10,10 @@ a {
     color: #555;
 }
 
+.linkBg {
+    background: rgb(255, 255, 79);
+}
+
 /* 제거하기 */
 header #nav>div {
     display: flex;
