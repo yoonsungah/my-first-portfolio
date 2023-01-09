@@ -15,7 +15,7 @@ CSS3, jQuery, Java Script로 작업한 모든 코드는 하드코딩을 원칙�
 
 #### 프로젝트 기여도 : 100% (개인 작업)
 
-#### 프로젝트 URL : [Click here !](https://yoonsungah.github.io/my-first-portfolio/index.html)
+#### 프로젝트 URL : [Click here !](https://yoonsungah.github.io/web-publishing-hihigh/)
 
 #### 로그인 동작 URL : [![Youtube Badge](https://img.shields.io/badge/Youtube-ff0000?style=flat-square&logo=youtube&link=https://youtu.be/i7vGwVelgNA)](https://youtu.be/i7vGwVelgNA) (JSP 사용)
 
@@ -23,11 +23,11 @@ CSS3, jQuery, Java Script로 작업한 모든 코드는 하드코딩을 원칙�
 
 - 총 5 페이지로 구성
 
-  - 메인페이지 : [index.html](https://yoonsungah.github.io/my-first-portfolio/index.html)
-  - 신상품 페이지 : [newItem.html](https://yoonsungah.github.io/my-first-portfolio/newItem.html)
-  - 인기상품 페이지 : [bestItem.html](https://yoonsungah.github.io/my-first-portfolio/bestItem.html)
-  - 로그인 페이지 : [login.html](https://yoonsungah.github.io/my-first-portfolio/login.html)
-  - 회원가입 페이지 : [join.html](https://yoonsungah.github.io/my-first-portfolio/join.html)
+  - 메인페이지 : [index.html](https://yoonsungah.github.io/web-publishing-hihigh/)
+  - 신상품 페이지 : [newItem.html](https://yoonsungah.github.io/web-publishing-hihigh/newItem.html)
+  - 인기상품 페이지 : [bestItem.html](https://yoonsungah.github.io/web-publishing-hihigh/bestItem.html)
+  - 로그인 페이지 : [login.html](https://yoonsungah.github.io/web-publishing-hihigh/login.html)
+  - 회원가입 페이지 : [join.html](https://yoonsungah.github.io/web-publishing-hihigh/join.html)
 
 ---
 
