@@ -17,9 +17,7 @@ CSS3, jQuery, Java Script로 작업한 모든 코드는 하드코딩을 원칙�
 
 #### 프로젝트 URL : [Click here !](https://yoonsungah.github.io/my-first-portfolio/index.html)
 
-#### 로그인 동작 URL : ![Youtube Badge](https://img.shields.io/badge/Youtube-ff0000?style=flat-square&logo=youtube&link=https://youtu.be/i7vGwVelgNA) (JSP 사용)
-
----
+#### 로그인 동작 URL : [![Youtube Badge](https://img.shields.io/badge/Youtube-ff0000?style=flat-square&logo=youtube&link=https://youtu.be/i7vGwVelgNA)](https://youtu.be/i7vGwVelgNA) (JSP 사용)
 
 ## **페이지 구성**
 
