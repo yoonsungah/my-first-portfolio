@@ -1,98 +1,51 @@
-# my-first-portfolio
-바로가기 링크 :  https://yoonsungah.github.io/my-first-portfolio/index.html
+# **Hihigh 문구 사이트** 🙂
 
-JSP를 활용한 회원가입 + 로그인 처리 링크 : https://youtu.be/i7vGwVelgNA
+하이하이는 각종 문구 브랜드가 모여있는 문구류 판매 사이트 입니다. 웹 사이트 요소마다 인터랙티브한 기능을 추가해 사이트 방문자로 하여금 제품에 좀 더 관심을 가질 수 있도록 했습니다.
 
-1. index.html : 메인페이지
-2. newItem.html : 신상품 페이지
-3. bestItem.html : 인기상품 페이지
-4. login.html : 로그인 페이지
-5. join.html : 회원가입 페이지
+HTML5 웹 표준, 웹 접근성을 고려해 HTML구조를 만들었으며, 반응형 웹 사이트로 제작했습니다.
+CSS3, jQuery, Java Script로 작업한 모든 코드는 하드코딩을 원칙으로 했습니다.
 
-# Project Title
+---
 
-One Paragraph of project description goes here
+## **프로젝트 설명**
 
-## Getting Started
+#### 프로젝트 이름 : Hihigh
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+#### 프로젝트 기간 : 2022.06.12 - 2022.09.12
 
-### Prerequisites
+#### 프로젝트 기여도 : 100% (개인 작업)
 
-What things you need to install the software and how to install them
+#### 프로젝트 URL : [Click here !](https://yoonsungah.github.io/my-first-portfolio/index.html)
 
-```
-Give examples
-```
+#### 로그인 동작 URL : ![Youtube Badge](https://img.shields.io/badge/Youtube-ff0000?style=flat-square&logo=youtube&link=https://youtu.be/i7vGwVelgNA) (JSP 사용)
 
-### Installing
+---
 
-A step by step series of examples that tell you how to get a development env running
+## **페이지 구성**
 
-Say what the step will be
+- 총 5 페이지로 구성
 
-```
-Give the example
-```
+  - 메인페이지 : [index.html](https://yoonsungah.github.io/my-first-portfolio/index.html)
+  - 신상품 페이지 : [newItem.html](https://yoonsungah.github.io/my-first-portfolio/newItem.html)
+  - 인기상품 페이지 : [bestItem.html](https://yoonsungah.github.io/my-first-portfolio/bestItem.html)
+  - 로그인 페이지 : [login.html](https://yoonsungah.github.io/my-first-portfolio/login.html)
+  - 회원가입 페이지 : [join.html](https://yoonsungah.github.io/my-first-portfolio/join.html)
 
-And repeat
+---
 
-```
-until finished
-```
+## **메인 페이지 기능 설명**
 
-End with an example of getting some data out of the system or using it for a little demo
+1. 메인 배너 슬라이드 효과
 
-## Running the tests
+   - 메인 배너 슬라이드 -> 4개의 배너 무한 슬라이드
+   - pager 버튼을 활용해 원하는 배너로 이동
 
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
-## Authors
-
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+2. 제품 이미지 마우스 호버 시
+   - 이미지 확대
+   - 추가 설명이 나타나는 CSS 효과
+3. Time Sale Section 카운트 다운
+   - 남아 있는 시간 카운트 다운 기능
+4. 실시간 HOT Section 순위 기능
+   - 실시간 검색 순위 무한 슬라이드 기능
+5. 화면 위로 갈 수 있는 Top Button 기능
+6. 반응형 웹 페이지를 위한 햄버거 버튼 기능
